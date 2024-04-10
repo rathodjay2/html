@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Menu</title>
+</head>
+<body>
+  
+     <fieldset>
+     
+       <h><big>An Unordered HTML list</big></h>
+
+      <ul>
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+      </ul>
+     </fieldset>
+  
+</body>
+</html>
