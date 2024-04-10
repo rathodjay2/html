@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <fieldset>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>language</title>
+</head>
+<body>
+  
+    <h><big><b>Definition (Description) List Example</b></big></h>
+
+<dl>
+  <dt>HTML</dt>
+  <dd>is a markup language</dd>
+
+  <dt>Java</dt>
+  <dd>is a programming language and platform</dd>
+
+  <dt>JavaScript</dt>
+  <dd>is a scripting language</dd>
+
+  <dt>SQL</dt>
+  <dd>is a query language</dd>
+</dl>
+</fieldset>
+</body>
+</html>
