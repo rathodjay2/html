@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+
+
+  <form>
+  <fieldset>
+    <h1>
+    <legend>Bank Account Opening Form</legend>
+      </h1>
+    <label for="fname">Full Name:</label>
+    <input type="text" id="fname" name="fullname"><br><br>
+
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male"> Male
+    <input type="radio" id="female" name="gender" value="female"> Female
+    <input type="radio" id="other" name="gender" value="other"> Other<br><br>
+
+    <label for="bloodGroup">Blood Group:</label><br>
+    <select id="bloodGroup" name="bloodGroup" required>
+        <option value="O+">O+</option>
+        <option value="O-">B-</option>
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+      </select><br><br>
+
+
+    
+     <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    
+    <label for="contact">Phone No:</label>
+    <input type="tel" id="contact" name="Phone No:"><br><br>
+    
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    
+    <label for="ID">ID proof:</label><br>
+    <input type="radio" id="Aadhar card" name="ID" value="Aadhar card"> Aadhar card
+    <input type="radio" id="Driving licence" name="ID" value="Driving licence"> Driving licence
+    <input type="radio" id="pan card" name="ID" value="pan card"> pan card<br><br>
+    
+    <label for="Address">Address proof:</label><br>
+     <input type="radio" id="Aadhar card" name="Address" value="Aadhar card"> Aadhar card
+     <input type="radio" id="Passport" name="Address" value="Passlort"> Passport
+     <input type="radio" id="Light Bill" name="Address" value="Light Bill"> Light Bill
+     <input type="radio" id="Telephone Bil" name="Address" value="Telephone Bill"> Telephone Bill
+     <input type="radio" id="any proof" name="Address" value="anyproof">anyproof <br><br>
+    <button type="submit">submit</button>
+  </fieldset>
+</form>
+
+</body>
+</html>
