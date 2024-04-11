@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+
+  <fieldset>
+  <form>
+  
+<h1>Student Feedback Form</h1>
+<fieldset>
+<h2>Student Info (Optional)</h2>
+<label for="studentName">Student Name:</label>
+<input type="text" id="studentName" name="studentName"><br><br>
+
+<label for="enrollmentNo">Enrollment No:</label>
+<input type="text" id="enrollmentNo" name="enrollmentNo"><br><br> 
+  
+<label for="Date">Date:</label>
+<input type="number" id="Date" name="Date"><br><br>
+  
+
+</fieldset>
+
+<fieldset>
+<h2>Faculty and Subject Info</h2>
+
+  <label for="faculty name">faclty name:</branch>
+    <select id="faclty name" name="faclty name" required>
+            <option value="smp">smp sir</option>
+            <option value="kkm">kkm sir</option>
+            <option value="dada">dada sir</option>
+            <option value="dvs">dvs mam</option>
+          </select></br><br>
+
+ <label for="subjectSelection">subjectSelection:</branch>
+    <select id="subjectSelection" name="subjectSelection" required>
+           <option value="MATHS">MATHS</option>
+           <option value="BDE">BDE</option>
+           <option value="Ic">IC</option>
+           <option value="BDE">BDE</option>
+         </select></br><br>
+  
+</fieldset>
+
+<fieldset>
+<h2>Feedback</h2>
+<label for="satisfactionLevelSyllabus">1) Satisfaction level according to the syllabus covered by the teacher :</label><br>
+  <input type="radio" id="satisfactionLevelSyllabus5" name="satisfactionLevelSyllabus" value="5"> 5
+  <input type="radio" id="satisfactionLevelSyllabus4" name="satisfactionLevelSyllabus" value="4"> 4
+  <input type="radio" id="satisfactionLevelSyllabus3" name="satisfactionLevelSyllabus" value="3"> 3
+  <input type="radio" id="satisfactionLevelSyllabus2" name="satisfactionLevelSyllabus" value="2"> 2
+  <input type="radio" id="satisfactionLevelSyllabus1" name="satisfactionLevelSyllabus" value="1"> 1<br><br>
+
+<label for="satisfactionLevelBeyondSyllabus">2) Satisfaction level according to the topics covered beyond syllabus by the teacher :</label><br>
+  <input type="radio" id="satisfactionLevelBeyondSyllabus5" name="satisfactionLevelBeyondSyllabus" value="5"> 5
+  <input type="radio" id="satisfactionLevelBeyondSyllabus4" name="satisfactionLevelBeyondSyllabus" value="4"> 4
+  <input type="radio" id="satisfactionLevelBeyondSyllabus3" name="satisfactionLevelBeyondSyllabus" value="3"> 3
+  <input type="radio" id="satisfactionLevelBeyondSyllabus2" name="satisfactionLevelBeyondSyllabus" value="2"> 2
+  <input type="radio" id="satisfactionLevelBeyondSyllabus1" name="satisfactionLevelBeyondSyllabus" value="1"> 1<br><br>
+
+<label for="satisfactionLevelSyllabus">3) satisfaction lavel according your questions towords by the sir :</label><br>
+  <input type="radio" id="satisfactionLevelSyllabus5" name="satisfactionLevelSyllabus" value="5"> 5
+  <input type="radio" id="satisfactionLevelSyllabus4" name="satisfactionLevelSyllabus" value="4"> 4
+  <input type="radio" id="satisfactionLevelSyllabus3" name="satisfactionLevelSyllabus" value="3"> 3
+  <input type="radio" id="satisfactionLevelSyllabus2" name="satisfactionLevelSyllabus" value="2"> 2
+  <input type="radio" id="satisfactionLevelSyllabus1" name="satisfactionLevelSyllabus" value="1"> 1<br><br>
+
+  
+</fieldset>
+  <br>
+<button type="submit">Submit Feedback</button>
+  
+   </fieldset>
+   </form>
+</body>
+</html>
