@@ -1,0 +1,23 @@
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+table{
+    text-align: center;
+    width: 1350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: small;
+
+}
+table th{
+    font-weight: bold;
+}
+.first{
+    background-color: aquamarine;
+}
+.RECESS{
+    background-color: rgb(114, 213, 253);
+    font-weight: 700;
+}
